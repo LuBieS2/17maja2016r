@@ -38,7 +38,7 @@ for code in codes:
             word_coded+=alphabet[alphabet.index(i)-k-len(alphabet)]
     print(n, word_coded)
     word_coded=""
-    #6.3
+#6.3
 file=open("dane_6_3.txt", "r")
 pairs=list(map(str.strip, file.readlines()))
 pairs=[l.split(" ") for l in pairs]
